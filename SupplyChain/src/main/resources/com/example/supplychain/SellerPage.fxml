@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.supplychain.SellerPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b9fff8" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <Label layoutX="137.0" layoutY="96.0" text="Add a New Product">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="147.0" text="Product Name" />
+      <Label layoutX="93.0" layoutY="232.0" text="Product Price" />
+      <Label layoutX="93.0" layoutY="315.0" text="Seller ID" />
+      <TextField fx:id="name" layoutX="84.0" layoutY="184.0" prefHeight="30.0" prefWidth="194.0" />
+      <TextField fx:id="price" layoutX="90.0" layoutY="271.0" prefHeight="30.0" prefWidth="194.0" />
+      <TextField fx:id="email" layoutX="90.0" layoutY="342.0" prefHeight="30.0" prefWidth="194.0" />
+      <Button layoutX="372.0" layoutY="420.0" mnemonicParsing="false" onMouseClicked="#Add" prefHeight="36.0" prefWidth="71.0" text="Add">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
